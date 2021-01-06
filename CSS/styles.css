@@ -8,16 +8,18 @@ body {
 }
 
 .header {
-  margin: 0 100px;
+  margin: 100px 50px 50px 50px;
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 65px;
+  color: #222831;
 }
 
 p {
   font-family: 'Jost', sans-serif;
+  color: #222831;
 }
 
 a {
@@ -26,7 +28,7 @@ a {
 }
 
 .block-1 {
-  margin: 50px 100px;
+  margin: 50px;
 }
 
 .profile-photo {
