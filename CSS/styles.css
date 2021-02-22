@@ -1,0 +1,137 @@
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+body {
+  background-color: #e7e7de;
+  margin: 0;
+}
+
+.header {
+  margin: 0 0 50px;
+  padding: 30px;
+  text-align: center;
+  background-color: #0f3057;
+}
+
+/********************* Original Heading ****************************
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 65px;
+  color: #222831;
+}
+*/
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  color: #e7e7de;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*hr {
+  width: 10%;
+  color: #00587a;
+  border-style: dotted;
+  border-width: 10px;
+  border-top: 0;
+}
+*/
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  color: #e7e7de;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: 'Jost', sans-serif;
+  color: #222831;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #00587a;
+  text-decoration: none;
+}
+
+.block-1 {
+  margin: 50px 10%;
+}
+
+.profile-photo {
+  display: block;
+  width: 50%;
+  min-height: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+/****************** first twitter icon edit *******************
+.fa {
+  background: #55ACEE;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+***************************************************************/
+
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.portfolio {
+  background-color: #0f3057;
+  text-align: center;
+  padding: 30px 0 100px 0;
+}
+
+.portfolio-p {
+  color: #e7e7de;
+  font-size: 1.4rem;
+  margin: 50px auto;
+}
+
+.portfolio-vertical {
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 5px 8px 8px 5px rgba(0, 0, 0, 0.8);
+}
+
+.portfolio-vertical:hover {
+  opacity: 0.7;
+}
+
+.footer-portfolio {
+  text-align: center;
+  background-color: #0f3057;
+  padding-bottom: 100px;
+}
