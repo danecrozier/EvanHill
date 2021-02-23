@@ -58,6 +58,12 @@ a {
   text-decoration: none;
 }
 
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #e7e7de, rgba(0, 0, 0, 0));
+}
+
 .block-1 {
   margin: 50px 10%;
 }
@@ -132,6 +138,10 @@ a {
 .portfolio-vertical:hover {
   opacity: 0.8;
   transform: scale(1.2);
+}
+
+.footer-hr {
+  padding-top: 100px;
 }
 
 .footer-portfolio {
